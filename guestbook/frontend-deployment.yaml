@@ -11,8 +11,8 @@ spec:
     metadata:
       labels:
         app: guestbook
-  spec:
-    containers:
+    spec:
+      containers:
       - name: php-frontend
         image: gcr.io/google-samples/gb-frontend:v4
         ports:
